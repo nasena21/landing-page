@@ -6,10 +6,19 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
 }
 
 .links {
     display: flex;
+    gap: 10px;
+}
+
+.header-logo {
+    font-family: Roboto;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -20,6 +29,8 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero-one {
