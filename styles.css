@@ -71,13 +71,32 @@ a {
     background-color: #fff;
 }
 
+
+
 .hero-three {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px 500px 48px 500px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.speaker {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: right;
 }
 
 .hero-four {
     background-color: #fff;
 }
+
 
 .footer {
     display: flex;
