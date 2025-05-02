@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
+    align-items: center;
 }
 
 .links {
@@ -35,6 +36,35 @@ a {
 
 .hero-one {
     background-color: #1f2937;
+    display: flex;
+    gap: 48px;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container-two {
+    display: flex;
+    flex-basis: 200px;
+}
+
+.placeholder {
+    width: 200px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero-two {
@@ -50,5 +80,10 @@ a {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 20px;
 }
