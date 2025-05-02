@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+}
+
+.links {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-one {
+    background-color: #1f2937;
+}
+
+.hero-two {
+    background-color: #fff;
+}
+
+.hero-three {
+    background-color: #e5e7eb;
+}
+
+.hero-four {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #1f2937;
+}
