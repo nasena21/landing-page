@@ -1,0 +1,219 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: 8px solid black;
+    height: 100vh;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(118, 118, 235);
+    font-size: 30px;
+    flex: 1;
+}
+
+/* This is the start css for the hero main part */
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #1f2937;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 4em 8em;
+}
+
+.box-one {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.box-one h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.box-one p {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.box-one button {
+    background-color: #3882f6;
+    font-size: 15px;
+    color: white;
+}
+
+.box-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: rgb(75, 180, 250);
+}
+
+.placeholder {
+    background-color: #57f7b9;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is the end css for the hero main part */
+
+/* This is the start css for the boxes part */
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    border: 3px solid #57f7b9;
+}
+
+.box-text {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    border: 3px solid #57f7b9;
+    align-self: stretch;
+}
+
+.box-placeholder {
+    min-height: 100px;
+    min-width: 100px;
+    border: 1px solid #57f7b9;
+}
+
+/* This is the end css for boxes part */
+
+
+
+/* This is the start css for the header part */
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    border: 2px solid rgb(255, 0, 0);
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 1em 10em;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.link-text {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 1em;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+/* This is the end css for the header part */
+
+/* This is the start css for quote part */
+
+.quote {
+    border: 2px solid rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-self: stretch;
+    padding: 4rem;
+}
+
+.quote-text {
+    font-size: 36px;
+    text-align: center;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.name-text {
+    font-weight: 900;
+    font-size: 25px;
+    text-align: right;
+}
+
+/* This is the end css for quote part */
+
+/* This is the start css for the cta part */
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    padding: 1em;
+    gap: 5em;
+    border-radius: 10px;
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-box h1 {
+    color: #f9faf8;
+    margin: 0;
+    padding: 0;
+}
+
+.cta-box p {
+    color: #f9faf8;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+
+/* This is the end css for cta part */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: #1f2937;
+    padding: 20px 0;
+    color: #fff;
+    align-self: stretch;
+}
