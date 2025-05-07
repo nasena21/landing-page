@@ -1,16 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    border: 8px solid black;
     height: 100vh;
     align-items: center;
+    margin: 0;
 }
 
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(255, 0, 0);
 }
 
 .box {
@@ -28,8 +27,8 @@ body {
     justify-content: center;
     align-items: stretch;
     background-color: #1f2937;
-    border: 2px solid rgb(255, 0, 0);
     padding: 4em 8em;
+    gap: 2em;
 }
 
 .box-one {
@@ -69,11 +68,26 @@ body {
 
 .placeholder {
     background-color: #57f7b9;
-    width: 80%;
-    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sign-up1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up1 button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
 }
 
 /* This is the end css for the hero main part */
@@ -85,21 +99,41 @@ body {
     flex-direction: column;
     align-items: center;
     align-self: stretch;
-    border: 3px solid #57f7b9;
+    margin: 3em;
+    gap: 1em;
+}
+
+.text2 {
+    font-weight: 900;
+    font-size: 38px;
 }
 
 .box-text {
     display: flex;
     justify-content: center;
     gap: 5em;
-    border: 3px solid #57f7b9;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 
 .box-placeholder {
-    min-height: 100px;
-    min-width: 100px;
-    border: 1px solid #57f7b9;
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.box-placeholder img {
+    height: 100%;
+    width: auto; /* maintain aspect ratio */
+    object-fit: contain; /* optional: ensures image doesn't get cropped */
+}
+
+.box-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
 }
 
 /* This is the end css for boxes part */
@@ -111,7 +145,6 @@ body {
 .header {
     display: flex;
     background-color: #1f2937;
-    border: 2px solid rgb(255, 0, 0);
     align-self: stretch;
     justify-content: space-between;
     padding: 1em 10em;
@@ -141,7 +174,6 @@ a {
 /* This is the start css for quote part */
 
 .quote {
-    border: 2px solid rgb(255, 0, 0);
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
@@ -173,6 +205,8 @@ a {
     padding: 1em;
     gap: 5em;
     border-radius: 10px;
+    margin: 3em 0;
+    padding: 1em 5em;
 }
 
 .cta-box {
@@ -211,7 +245,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(255, 0, 0);
     background-color: #1f2937;
     padding: 20px 0;
     color: #fff;
